@@ -40,7 +40,7 @@ int main() {
     int max_n = 350; 
     int repetitions = 10000; 
     std::vector<double> insertionSortTimes, mergeSortTimes;
-    for (int n = 30; n <= max_n; n += 10) {
+    for (int n = 300; n <= max_n; n += 10) {
         std::vector<int> data(n);
         for (int &val : data) val = rand();
         double totalInsertionTime = 0.0;
